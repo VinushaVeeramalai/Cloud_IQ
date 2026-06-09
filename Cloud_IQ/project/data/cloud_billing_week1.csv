@@ -1,7 +1,0 @@
-﻿resource_id,type,region,cpu_avg_percent,memory_avg_percent,cost_monthly_usd,last_active_days
-ec2-web-01,EC2,us-east-1,8,42,160.00,32
-rds-db-01,RDS,us-east-1,26,54,300.00,3
-s3-logs-01,S3,us-east-1,0,0,85.00,0
-ec2-api-01,EC2,us-east-1,45,37,180.00,2
-rds-report-01,RDS,us-east-1,18,61,320.00,12
-ec2-batch-01,EC2,us-east-1,56,22,190.00,1

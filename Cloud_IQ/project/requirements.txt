@@ -1,4 +1,0 @@
-﻿# Standard library modules used by this project: csv, smtplib, json, webbrowser, os, time, datetime
-requests==2.31.0
-ollama==0.1.7
-python-dotenv==1.0.0
