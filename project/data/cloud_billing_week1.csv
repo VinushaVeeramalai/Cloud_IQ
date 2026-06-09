@@ -4,4 +4,8 @@ rds-db-01,RDS,us-east-1,26,54,300.00,3
 s3-logs-01,S3,us-east-1,0,0,85.00,0
 ec2-api-01,EC2,us-east-1,45,37,180.00,2
 rds-report-01,RDS,us-east-1,18,61,320.00,12
+<<<<<<< HEAD
 ec2-batch-01,EC2,us-east-1,56,22,190.00,1
+=======
+ec2-batch-01,EC2,us-east-1,56,22,190.00,1
+>>>>>>> c9a7cbb050cc52992f6e5d087d218d19e10a0abc

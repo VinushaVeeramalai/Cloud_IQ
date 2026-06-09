@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -147,4 +148,155 @@
   </div>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud Cost Optimizer</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #06111f;
+      color: #e2e8f0;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, rgba(59, 130, 246, 0.16), transparent 25%),
+                  linear-gradient(180deg, #07111f 0%, #02070f 100%);
+    }
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .hero {
+      display: grid;
+      gap: 28px;
+      padding: 36px;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 28px;
+      background: rgba(15, 23, 42, 0.88);
+      box-shadow: 0 32px 100px rgba(0, 0, 0, 0.28);
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.82rem;
+      color: #38bdf8;
+      font-weight: 700;
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 4vw, 4.2rem);
+      line-height: 1.02;
+    }
+    .hero p {
+      margin: 0;
+      max-width: 760px;
+      line-height: 1.9;
+      color: #cbd5e1;
+      font-size: 1.05rem;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 24px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform 0.22s ease, background-color 0.22s ease;
+    }
+    .button.primary {
+      background: #38bdf8;
+      color: #0f172a;
+    }
+    .button.secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: #e2e8f0;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .button:hover {
+      transform: translateY(-2px);
+    }
+    .grid {
+      display: grid;
+      gap: 22px;
+      margin-top: 32px;
+    }
+    .feature {
+      display: grid;
+      gap: 12px;
+      padding: 24px;
+      border-radius: 22px;
+      background: rgba(15, 23, 42, 0.88);
+      border: 1px solid rgba(148, 163, 184, 0.12);
+    }
+    .feature h2 {
+      margin: 0;
+      font-size: 1.18rem;
+    }
+    .feature p {
+      margin: 0;
+      color: #94a3b8;
+      line-height: 1.8;
+    }
+    .footer {
+      margin-top: 44px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(148, 163, 184, 0.12);
+      text-align: center;
+      color: #94a3b8;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 840px) {
+      .hero { padding: 28px; }
+      .actions { justify-content: stretch; }
+      .button { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <span class="eyebrow">Cloud Cost Optimizer</span>
+      <h1>Deploy a polished cost optimization website and dashboard</h1>
+      <p>This project now includes a static landing page, a responsive dashboard report, and a local Zendesk-style AI chatbot. Generate the report with <code>python main.py --serve --github --discord --email --ai</code>, then open the dashboard in <code>output/dashboard.html</code> or via the local server.</p>
+      <div class="actions">
+        <a class="button primary" href="../output/dashboard.html" target="_blank">Open Dashboard</a>
+        <a class="button secondary" href="../README.md" target="_blank">View README</a>
+      </div>
+    </section>
+
+    <div class="grid">
+      <div class="feature">
+        <h2>Modern user experience</h2>
+        <p>The dashboard now uses a modern sidebar-style layout with aligned cards, responsive grids, and a polished dark theme. No more misaligned boxes or inconsistent spacing.</p>
+      </div>
+      <div class="feature">
+        <h2>Clear project structure</h2>
+        <p>The project includes a static website landing page at <code>website/index.html</code> and a data-driven report at <code>output/dashboard.html</code>.</p>
+      </div>
+      <div class="feature">
+        <h2>Fully working workflow</h2>
+        <p>Run <code>python main.py</code> to analyze the cloud billing CSVs, generate the dashboard, and open it automatically in your browser.</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      Built for a complete cloud cost optimizer website experience — polished layout, aligned cards, and a clean presentation.
+    </footer>
+  </div>
+</body>
+</html>
+>>>>>>> c9a7cbb050cc52992f6e5d087d218d19e10a0abc
 "@; Set-Content -LiteralPath "c:\Users\mhari\OneDrive\Desktop\cloud_cost_optimizer\website\index.html" -Value $content -Encoding utf8

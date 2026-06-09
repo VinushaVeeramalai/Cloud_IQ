@@ -6,4 +6,8 @@ ec2-api-04,EC2,us-east-1,61,38,205.00,3
 rds-analytics-02,RDS,us-east-1,14,68,320.00,18
 ec2-batch-04,EC2,us-east-1,73,34,215.00,2
 rds-report-03,RDS,us-east-1,18,60,285.00,8
+<<<<<<< HEAD
 ec2-dev-02,EC2,us-east-1,9,22,180.00,12
+=======
+ec2-dev-02,EC2,us-east-1,9,22,180.00,12
+>>>>>>> c9a7cbb050cc52992f6e5d087d218d19e10a0abc

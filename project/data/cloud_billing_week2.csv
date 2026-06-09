@@ -5,4 +5,8 @@ s3-archive-01,S3,us-east-1,0,0,90.00,0
 ec2-api-02,EC2,us-east-1,53,41,185.00,3
 rds-analytics-01,RDS,us-east-1,9,82,340.00,20
 ec2-batch-02,EC2,us-east-1,62,33,210.00,2
+<<<<<<< HEAD
 ec2-cache-01,EC2,us-east-1,88,27,155.00,0
+=======
+ec2-cache-01,EC2,us-east-1,88,27,155.00,0
+>>>>>>> c9a7cbb050cc52992f6e5d087d218d19e10a0abc
